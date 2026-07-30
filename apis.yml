@@ -1,8 +1,12 @@
 aid: mercantile
 name: Mercantile
-description: Mercantile is a company surfaced as a portfolio company of general-catalyst, index-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Mercantile is a branded business credit card platform operated by Onboard Partners
+  LLC (Boston, MA) that helps fintechs, consumer brands, and trade associations launch and run
+  custom affinity credit card programs. It delivers a turnkey card-as-a-service stack — card issuing
+  (cards issued by Hatch Bank on the Mastercard network), tailored underwriting and flexible funding,
+  a ready-made regulatory/compliance/banking framework, real-time fraud monitoring, rewards, cardholder
+  support, and full-service marketing — plus a partner API that lets brands integrate card features
+  into their own systems to automate and scale their program.
 url: https://raw.githubusercontent.com/api-evangelist/mercantile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +15,32 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.prod.website-files.com/6346e72c966c1b1aab035831/694c12a652f8b0cdb3763faa_Mercantile_Home_Opengraph_2026.png
 tags:
 - Company
+- Credit Cards
+- Card Issuing
+- Embedded Finance
+- Fintech
+- Payments
+- Loyalty and Rewards
+- Affinity Programs
+- Business Credit
+- Mastercard
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.getmercantile.com/
+- type: Blog
+  url: https://www.getmercantile.com/newsroom
+- type: Support
+  url: https://help.mercantile.cards/
+- type: TermsOfService
+  url: https://www.getmercantile.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.getmercantile.com/legal/privacy-policy
+- type: DomainSecurity
+  url: security/mercantile-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
